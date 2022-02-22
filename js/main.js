@@ -54,6 +54,17 @@ window.onload = function()
 
 btn_send.addEventListener("click", ()=>
 {
-    postData(input[0].value, input[1].value, input[2].value);
+    let conditionPass = true;
+
+    for (let index = 0; index < input.length; index++) {
+        if(input[index].value.length <= 0)
+            conditionPass = false;
+    }
+
+    if(conditionPass)
+        postData(input[0].value, input[1].value, input[2].value);
+    else
+        alert("No se puede insertar debido a campos vacios!!");
+        
     return false; 
 });

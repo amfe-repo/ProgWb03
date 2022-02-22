@@ -83,5 +83,13 @@ html
     padding: 0.5em;
     margin: 1em;
     border-radius: 10px;
+    transition: 0.5s;
 }
+
+.contacts ul li:hover
+{
+    transform: scale(1.2);
+    background-color: rgba(54, 54, 54, 0.322);
+}
+
 
