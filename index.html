@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/main.css">
+    <title>Agenda telefonica</title>
+</head>
+<body>
+    <div class="container">
+        <label for="">Agenda Telefonica</label>
+        <input type="text" class="name" placeholder="Nombre">
+        <input type="text" class="last" placeholder="Apellido">
+        <input type="text" class="phone" placeholder="Telefono">
+        <button type="submit" id="btn-send">Send</button>
+    </div>
+    <div class="contacts">
+        <label for="">Contactos</label>
+        <ul class="list-contacts" id="list">
+        </ul>
+    </div>
+    <script src="./js/ApiConnect.js" type="module"></script>
+    <script src="./js/main.js" type="module"></script>
+</body>
+</html>

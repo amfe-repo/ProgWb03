@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700;800&display=swap');
+
+/*init page style*/
+
+html
+{
+    box-sizing: border-box;
+    height: 100%;
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+.container
+{
+    width: 30%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 4%;
+    background-color: rgb(100, 219, 235);
+    border-radius: 20px;
+    margin-left: 35.5%;
+}
+
+.container label
+{
+    text-align: center;
+    font-size: 2em;
+    margin: 2em;
+    color: #fff;
+    font-weight: bold;
+}
+
+.container input
+{
+    height: 3em;
+    margin: 2em;
+    border: none;
+    border-radius: 10px;
+    font-size: 1.3em;
+}
+
+.container button
+{
+    height: 3em;
+    margin-top: 2em;
+    margin: 2em;
+    border-radius: 10px;
+    border: none;
+    background-color: rgb(6, 141, 204);
+    color: #fff;
+    font-size: 1.5em;
+    cursor: pointer;
+}
+
+.container button:hover
+{
+    
+    background-color: rgb(6, 116, 167);
+
+}
+
+.contacts 
+{
+    margin: 0 auto;
+    width: 40%;
+    text-align: center;
+    margin-top: 4em;
+}
+
+.contacts label
+{
+    font-size: 2em;
+    font-weight: bold;
+}
+
+.contacts ul li 
+{
+    list-style-type: none;
+    background-color: rgba(88, 88, 88, 0.452);
+    color: #fff;
+    padding: 0.5em;
+    margin: 1em;
+    border-radius: 10px;
+}
+
